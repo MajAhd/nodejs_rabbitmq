@@ -1,0 +1,26 @@
+{
+  "name": "node_rabbitmq",
+  "version": "1.0.0",
+  "description": "nodejs and rabbitmq example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajAhd/nodejs_rabbitmq.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Nodejs"
+  ],
+  "author": "Majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajAhd/nodejs_rabbitmq/issues"
+  },
+  "homepage": "https://github.com/MajAhd/nodejs_rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.7.1"
+  }
+}
