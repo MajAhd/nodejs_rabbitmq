@@ -3,7 +3,6 @@ const amqplib = require("amqplib");
 const exchange_name = "topic_logs";
 let args = process.argv.slice(2);
 const key = args[0] || "error.save";
-// const msg = ["task 1", "task 2", "task 3"]
 const msg = args[1] || `Emmit Message ${Math.random()}!`;
 
 const send_message = async () => {

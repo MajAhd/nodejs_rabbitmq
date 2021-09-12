@@ -1,7 +1,6 @@
 const amqplib = require("amqplib");
 
 const exchange_name = "logs";
-// const msg = ["task 1", "task 2", "task 3"]
 const msg = process.argv.slice(2).join(" ") || "Emmit Message!";
 
 const send_message = async () => {

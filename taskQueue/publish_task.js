@@ -1,7 +1,6 @@
 const amqplib = require("amqplib")
 
 const queue_name = "works"
-// const msg = ["task 1", "task 2", "task 3"]
 const msg = process.argv.slice(2).join(' ') || "Hello RabbitMQ!";
 
 const send_task = async () => {
